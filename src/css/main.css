@@ -1,7 +1,7 @@
 @font-face {
     font-family:"main_font";
     src: url("corruptedname.github.io/arbrunavs/src/fonts/3d_unicode.ttf") format("truetype");
-  }
+}
 
 body {
     animation: fadeInDown; 
