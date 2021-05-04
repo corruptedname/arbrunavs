@@ -1,0 +1,111 @@
+@font-face {
+    font-family:"main_font";
+    src: url("/src/fonts/3d_unicode.ttf") format("truetype");
+  }
+
+body {
+    animation: fadeInDown; 
+    animation-duration: 2s;
+    background: #977261;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.helloh1 {
+    font-family: main_font;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    color: #281C17;
+}
+
+.buttontopress {
+    font-family: main_font;
+    background-color: #281C17;
+    border: rgb(255, 255, 255);
+    color: #a8703b;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.textbox_field {
+    text-align: center; 
+    font-family: main_font;
+    width: 25%;
+    border: 0;
+    border-bottom: 2px solid #4b1400;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.textbox_field:focus {
+    padding-bottom: 0px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #6b3c26, #944700);
+    border-image-slice: 1;
+}
+.textbox_field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #6b3c26;
+    font-weight: 700;
+}
+
+.saxelobti_to_append {
+    animation: bounceInRight; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17
+}
+
+.natesaobiti_to_append {
+    animation: bounceinUp; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17 
+}
+
+.moqmedebiti_to_append {
+    animation: bounceInLeft; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17
+}
+
+.vitarebiti_to_append {
+    animation: bounceInLeft; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17
+}
+
+.motxrobiti_to_append {
+    animation: bounceInDown; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17
+}
+
+.micemiti_to_append {
+    animation: bounceInDown; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17
+}
+
+.wodebiti_to_append {
+    animation: bounceInUp; 
+    animation-duration: 2s;
+    font-family: main_font;
+    color:#281C17
+}
